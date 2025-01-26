@@ -87,9 +87,9 @@ Transformers 모델: Hugging Face Transformers (KoGPT-2, BERT)
 
 임베딩 및 유사도 계산: BERT, Cosine Similarity
 
-설치 명령어 예시
+- 설치 명령어 예시
 
-pip install numpy pandas selenium konlpy nltk transformers scikit-learn matplotlib seaborn scipy
+``` pip install numpy pandas selenium konlpy nltk transformers scikit-learn matplotlib seaborn scipy ```
 
 ### 결과물
 
