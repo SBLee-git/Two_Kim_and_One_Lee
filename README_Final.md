@@ -32,7 +32,7 @@
 KoGPT-2를 Fine-Tuning하여 새로운 문장을 생성
 
 텍스트 생성 코드 예시:
-
+```
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
 model_name = "gpt2"
@@ -44,7 +44,7 @@ def generate_lyrics(prompt, max_length=50, temperature=1.0):
     outputs = model.generate(inputs, max_length=max_length, temperature=temperature, num_return_sequences=1)
     generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
     return generated_text
-
+```
 4. 문장 구조 완성도 분석
 
 생성된 가사의 품질을 평가하고 기존 가사와의 유사도를 검증합니다.
@@ -109,7 +109,7 @@ KoGPT-2 기반으로 창작된 고품질 가사
 
 PCA 기반 임베딩 클러스터링 및 가사 감성 분포 시각화
 
-### 참고 자료
+### ☞ 참고 자료
 
 KoGPT2 GitHub Repository
 
