@@ -18,11 +18,11 @@
 | 구분    | 기술 및 라이브러리          |
 |-------|-------------------------|
 | 언어    | Python 3.11             |
-| 프레임워크 | FastAPI, uvicorn         |
-| 모델    | Hugging Face Transformers (KoGPT2) |
-| 크롤링   | BeautifulSoup, Selenium    |
-| DB     | PostgreSQL / MariaDB      |
-| 배포    | Docker, AWS EC2           |
+| 프레임워크 | FastAPI, uvicorn, Streamlit         |
+| AI 모델   | KoGPT2("skt/kogpt2-base-v2") : Fine-tuning Model 사용|
+| 평가 기준  | BLEU Score, ROUGE Score, PPL(Perplexity)  | 
+| 라이브러리  | Pytorch, Scikit-Learn, Transformers, Pandas, Numpy, Matplotlib, Seaborn, KoNLPy  |
+| 크롤링   | BeautifulSoup4, Selenium    |
 
 ---
 
