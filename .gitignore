@@ -3,7 +3,5 @@ hyeongseob/fine-tuning/fine_tuned_model2
 hyeongseob/fine-tuning/fine_tuned_model3
 hyeongseob/fine-tuning/fine_tuned_new_model
 dataset
-shocho_kim/backend/__pycache__
-hyeongseob/
-sblee/
-shocho_kim/
+shocho-kim/backend/__pycache__
+shocho-kim/00_test/.env
