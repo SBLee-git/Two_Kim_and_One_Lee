@@ -83,6 +83,7 @@
 <p align="center">
   <img src="/assets/image_5.png" alt="성능평가 시각화">
 </p>
+
 ---
 
 ## 5. 사용자 방문 경로
