@@ -9,8 +9,11 @@
 ---
 
 ## 1. 프로젝트 개요
-- ‘다이어리(노래 가제)’ 주제 감성 작사가 공모전용 AI 모델 개발  
-- 키워드 입력 시 “나만의 진솔한” 맞춤형 가사 자동 생성 목표
+
+**“BE MY MUSE” DACON 공모전에서 영감을 받아,**  
+**입력한 키워드만으로도 작사가가 의도하는 감성과 분위기를 반영한 가사를 자동 생성하는 AI 언어 모델을 개발합니다.**  
+**이를 통해 작사가의 아이디어 발상 과정을 보조하는 창작 지원 도구를 구현하는 것을 목표로 합니다.**  
+
 - <a href="https://www.canva.com/design/DAGd1CW20wA/MfQJQDQdldA8Qs6XvhyuLg/edit?utm_content=DAGd1CW20wA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> 프로젝트 발표 자료 링크 </a>
 
 ---
