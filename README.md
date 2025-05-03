@@ -1,5 +1,6 @@
 # "BE MY MUSE” GPT-2 기반 KoGPT를 활용한 감성 작사 모델 개발
-## 인원 구성
+
+### **인원 구성**
 - 팀장 : 김형섭(hyeongseob)
 - 팀원 : 이성복(sblee)
 - 팀원 : 김지민(shocho_kim)
