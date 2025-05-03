@@ -46,7 +46,7 @@
 - 테스트셋으로 자동 생성 가사 평가  
 - BLEU·ROUGE·Perplexity 지표 산출
 - 시각화 도구 활용하여 객관적 지표 도출
- ![학습과정 Validation Graph](assets/validation_image.png)
+- ![학습과정 Validation Graph](assets/validation_image.png)
 
 **출력 텍스트 감성 분류**  
 - KOTE 모델로 43개 감정 카테고리 분류  
@@ -60,24 +60,24 @@
 
 ## 4. 사용자 서비스 화면
 **서비스 시작 화면**
- ![사용자 시작 화면#1](assets/image_0.png)
- ![사용자 시작 화면#2](assets/image_1.png)
- ![사용자 시작 화면#3](assets/image_2.png)
+- ![사용자 시작 화면#1](assets/image_0.png)
+- ![사용자 시작 화면#2](assets/image_1.png)
+- ![사용자 시작 화면#3](assets/image_2.png)
 
 **키워드 입력 후 생성하기 버튼 클릭**
- ![생성된 가사 화면](assets/image_3.png)
+- ![생성된 가사 화면](assets/image_3.png)
  
  **생성된 텍스트 감성 분석 시각화**
- ![감성분석 시각화](assets/image_4.png)
+- ![감성분석 시각화](assets/image_4.png)
 
  **생성된 텍스트 성능 평가 시각화**
- ![성능평가 시각화](assets/image_5.png) 
+- ![성능평가 시각화](assets/image_5.png) 
 
 ---
 
 ## 5. 사용자 방문 경로
 **웹 서비스 QR 코드**  
- ![QR CODE](assets/qrcode_image.png) 
+- ![QR CODE](assets/qrcode_image.png) 
 
 ---
 
