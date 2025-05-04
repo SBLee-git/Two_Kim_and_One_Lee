@@ -1,76 +1,97 @@
-# POTEN_UP_MAIN_PROJECT#2
-## 팀명 : 김둘 이하나
-## 배경 : 머신러닝(기계학습)을 이용한 데이터 분석
+# "BE MY MUSE”
+## GPT-2 기반 KoGPT를 활용한 감성 작사 모델 개발
 
+### **인원 구성**
+- 팀장 : 김형섭(hyeongseob)
+- 팀원 : 이성복(SBLee-git)
+- 팀원 : 김지민(shocho-kim)
 
+---
 
+## 1. 프로젝트 개요
 
-# < ‘BE MY MUSE’ 작사 공모전 >
-## 1. 공모요강
-    
-### 🎧응모주제
-        
-        "그냥 잘 쓴다, 가 아니라 칼날처럼 마음을 따끔하게 하는 문장은 그 사람이 사물을 보는 방식이다." **- 양재선(작사가) -**
-        
-        "주제의 한계를 극복하려면 캐릭터에 개성을 불어넣어야 한다. 가사 속의 캐릭터는 화자의 성격, 환경, 성별 등 다양한 요소로 이루어지는 한 명의 가상인물이다." **- 김이나(작사가) -**
-        
-        Muse Labels에서 새로운 작사가를 모집하고 있습니다.
-        
-        이번 공모전 주제는 '다이어리(노래 가제)'입니다.
-        
-        **다른 사람의 이야기도 아니고, 가상의 이야기도 아닌, 다이어리에 나만의 이야기를 쓰듯 진솔하고 진정성 있는 나의 경험을 가사에 녹여보세요.**
-        
-        **내가 겪었던 일, 느꼈던 감정들을 음악이라는 형태로 풀어내는 작업이 되길 바랍니다.**
+**“BE MY MUSE” DACON 공모전에서 영감을 받아,**  
+**입력한 키워드만으로도 작사가가 의도하는 감성과 분위기를 반영한 가사를 자동 생성하는 AI 언어 모델을 개발합니다.**  
+**이를 통해 작사가의 아이디어 발상 과정을 보조하는 창작 지원 도구를 구현하는 것을 목표로 합니다.**  
 
-### 🎧접수방법
-        - 참가 대상: 서울,경기 거주하는 누구나 참여 가능 (작사 경험 여부와 관계없음)
-        - 서울에 위치한 회사와 원활한 소통 및 추후 작사가 미팅을 위해 지역 제한을 걸어두었습니다.
-    
-### 🎧시상내역
-        1. 대상: 1명 – 상금 1,000,000원 + 스튜디오 곡 제작 기회
-        2. 최우수상: 2명 – 상금 700,000원
-        3. 우수상: 3명 – 상금 500,000원
-    
-### 🎧참여방법
-        - 데모 곡을 듣고, 하나를 택해 떠오르는 가사를 자유롭게 작성
-        ( ※ 데모곡은 말 그대로 데모곡이고, 편곡을 많이 거칠 예정이기 때문에 운율에 딱 떨어지게 맞추지 않아도 됩니다. )
-        - 작성 규격: 가사 1절을 보고 1차 평가
-        ( ※ 랩과 노래를 섞어도 무방하나, 노래 위주의 곡이었으면 좋겠습니다.)
-        - 공모전 참가 방법
-        https://muselabes.imweb.me
-            1. 웹사이트에 개재된 데모 곡을 듣고, 한 곡을 선택해주세요.
-            2. 2. 나의 이야기를 기반한 가사를 작성해 주세요. (1절만 작성)
-            3. 3 .작성한 가사를 웹사이트를 통해 제출해 주세요.(HWP, DOCS, WORD 중 택 1)
-            4. (자세한 제출 방법은 공식 웹사이트에서 확인 가능)
-        - 문의 사항: muse13402@gmail.com 이메일로 문의주시기 바랍니다.
+- <a href="https://www.canva.com/design/DAGd1CW20wA/MfQJQDQdldA8Qs6XvhyuLg/edit?utm_content=DAGd1CW20wA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> 프로젝트 발표 자료 링크 </a>
 
-    
-## 2. [음악 샘플](https://muselabes.imweb.me/contact)
-    
-    https://youtu.be/dcqG7gN05ns?si=tgOoovbXe9Kc7xD7
-    
-    https://youtu.be/ETr-djaVh7E?si=nf_sriTrEDIRcyWn
-    
-    https://youtu.be/g0LCiT2PlkU?si=u4_b-GLcI4ajMJMJ
-    
-## 3. 작사 기준**
-    - 공모전 개요 기준
-        - 다른 사람의 이야기 X
-        - 가상의 이야기 X
-        
-## 4. 프로젝트 수행 절차** ( 하위 일정은 변경될 수 있습니다)
-    1. 데모곡 분위기에 맞는 노래를 찾아서 가사 수집하기 **(~ 1/08 (수) ) ★**
-        1. 팝송 ( 60곡 )
-        2. 가요 ( 90곡 )
-        3. **인당 가요 20곡, 팝송 30곡**
-    2. 형태소 분석 ( ~ 1/10 (금) )
-    3. 워드클라우드 → 많이 사용된 단어(문장) 발췌
-    4. 텍스트 감성 분석 → ‘Be my Muse’ 라는 주제에 맞게 Positive 단어들로 문장을 구성
-    5. 군집 알고리즘으로  운율에 맞는 단어 대체하여 문장 완성도 향상
-    6. 출품
-    
-## 5. 자료 공유**
-    - [히트곡 가사를 쓰기 위해 반드시 알아야 할 작사법](https://brunch.co.kr/@valuedeveloper/31)
-    - [김이나의 작사법](https://brunch.co.kr/@archiveyoni/36)
-    
-## 6. 아이디어 공유**
+---
+
+## 2. 기술 스택
+| 구분    | 기술 및 라이브러리          |
+|------------|-------------------------------------------|
+| 언어    | Python 3.11             |
+| 프레임워크 | FastAPI, uvicorn, Streamlit         |
+| AI 모델   | KoGPT2("skt/kogpt2-base-v2") : Fine-tuning Model 사용|
+| 평가 기준  | BLEU Score, ROUGE Score, PPL(Perplexity)  | 
+| 라이브러리  | Pytorch, Scikit-Learn, Transformers, Pandas, Numpy, Matplotlib, Seaborn, KoNLPy  |
+| 크롤링   | BeautifulSoup4, Selenium    |
+
+---
+
+## 3. 프로젝트 구현 절차
+
+**데이터 수집 및 전처리**  
+- 멜론 차트·가사 크롤링 (7,439곡 수집)
+- 중복 제거·정규화·토큰화 후 학습/검증 데이터셋 생성 (4,840곡의 Dataset 확보)
+
+**출력 값 도출 2가지 방법 검증**    
+- **방식 A**: 파인튜닝된 KoGPT2 모델을 활용하여 입력 키워드 기반으로 자연스럽게 이어지는 텍스트 생성  
+- **방식 B**: KoNLPy 라이브러리를 이용해 국립국어원 표준 형태소 분석·조합 기법으로 문장 구조를 재구성하는 방식
+
+**승인된 모델 선택**  
+- KoGPT2("skt/kogpt2-base-v2") Fine-Tuning 방식 선택
+- 하이퍼파라미터 설정 (lr, batch size, epochs)  
+- 확보한 데이터셋과 설정 된 값으로 Fine-Tuning 수행 
+
+**학습 검증 및 테스트**  
+- 테스트셋으로 자동 생성 가사 평가  
+- BLEU·ROUGE·Perplexity 지표 산출
+- 시각화 도구 활용하여 객관적 지표 도출
+<p align="center">
+  <img src="/assets/validation_image.png" alt="Validation Graph">
+</p>
+
+**출력 텍스트 감성 분류**  
+- KOTE 모델로 43개 감정 카테고리 분류  
+- 감성 분포 비율 계산 및 시각화
+
+**사용자 서비스 구현 (FastAPI, Streamlit)**  
+- REST API: 키워드 입력 → 가사 생성 엔드포인트  
+- Streamlit UI: 실시간 키워드 입력 및 결과 출력  
+  
+---
+
+## 4. 사용자 서비스 화면
+### 서비스 시작 화면
+![사용자 시작 화면#1](assets/image_0.png)
+![사용자 시작 화면#2](assets/image_1.png)
+![사용자 시작 화면#3](assets/image_2.png)
+
+### 키워드 입력 후 생성하기 버튼 클릭
+<p align="center">
+  <img src="/assets/image_3.png" alt="생성된 가사 화면">
+</p>
+ 
+### 생성된 텍스트 감성 분석 시각화
+<p align="center">
+  <img src="/assets/image_4.png" alt="감성분석 시각화">
+</p>
+
+### 생성된 텍스트 성능 평가 시각화
+<p align="center">
+  <img src="/assets/image_5.png" alt="성능평가 시각화">
+</p>
+
+---
+
+## 5. 사용자 방문 경로
+### 웹 서비스 QR 코드  
+![QR CODE](assets/qrcode_image.png) 
+
+---
+
+## 문의
+- E-MAIL : rukais2294@gmail.com
+- Kakaotalk : KeemHS91
